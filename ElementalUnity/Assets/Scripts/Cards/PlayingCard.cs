@@ -24,6 +24,7 @@ public class PlayingCard : Card
 
     public int GetCardNumber() => cardNumber;
     public CardElement GetCardElement() => cardElement;
+    public Sprite GetCardSprite() => cardSprite;
 
     public List<CardElement> GetWinCardElements() => winCardElements;
 
